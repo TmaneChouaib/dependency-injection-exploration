@@ -2,7 +2,7 @@ package metier;
 
 import dao.IDao;
 
-public class MetierIml implements IMetier {
+public class MetierImpl implements IMetier {
 
     //Couplage faible : 'Il faut dépendre des interfaces et non pas des classes'.
     //À savoir aussi que dans 'java' un object qui n'est pas initialisé sa valeur par default c'est null.
