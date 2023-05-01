@@ -15,8 +15,11 @@ public class Presentation {
         MetierImpl metier=new MetierImpl();
         metier.setDao(dao);
 
-        System.out.println("#############################Présentation#############################");
+        System.out.println("#######################################################################");
+        System.out.println("############################# Présentation ############################");
+        System.out.println("#######################################################################");
+
         System.out.println("la classe Présentation fait l'injection des dépendance d'une manière dynamique.");
-        System.out.println("Résultat=> "+metier.calcul());
+        System.out.println("Résultat => "+metier.calcul());
     }
 }

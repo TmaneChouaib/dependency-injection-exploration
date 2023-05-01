@@ -9,7 +9,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Scanner;
 
-public class presentation2 {
+public class Presentation2 {
     public static void main(String[] args) throws FileNotFoundException, ClassNotFoundException, InstantiationException, IllegalAccessException, ClassCastException, NoSuchMethodException, InvocationTargetException {
 
         Scanner scanner =new Scanner(new File("config.txt"));
@@ -27,8 +27,11 @@ public class presentation2 {
         Method method=cMetier.getMethod("setDao",IDao.class);
         method.invoke(metier,dao);
 
-        System.out.println("#############################Présentation2#############################");
+        System.out.println("#######################################################################");
+        System.out.println("########################## Présentation Deux ##########################");
+        System.out.println("#######################################################################");
+
         System.out.println("la classe Présentation2 fait l'injection des dépendance d'une manière dynamique.");
-        System.out.println("Résultat=> "+metier.calcul());
+        System.out.println("Résultat => "+metier.calcul());
     }
 }
