@@ -2,10 +2,10 @@ package ext;
 
 import dao.IDao;
 
-public class DaoImpl2 implements IDao {
+public class DaoImplNum2 implements IDao {
     @Override
     public double getData() {
-        System.out.println("version 2 : version capteur");
+        System.out.println("Implementation number 2 : sensor version");
         double temp=5;
         return temp ;
     }

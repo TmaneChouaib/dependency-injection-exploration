@@ -1,8 +1,8 @@
 package dao;
 
 public interface IDao {
-    //On peut supprimer public, car toutes les methods d'une interface sont par default de types publics.
-    //méthode qui retourne de la donnée
+    //We can remove public, because all the methods of an interface are by default of public type.
+    //method that returns data
     double getData();
 
 }
