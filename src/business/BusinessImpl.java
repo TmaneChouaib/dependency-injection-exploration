@@ -9,7 +9,7 @@ public class BusinessImpl implements IBusiness {
 
     private IDao dao;
     @Override
-    public double calcul() {
+    public double calculate() {
         double tmp=dao.getData();
         double res=tmp*10;
         return res;

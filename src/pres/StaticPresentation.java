@@ -11,14 +11,14 @@ public class StaticPresentation {
 
         //Static instantiation
         DaoImplNum2 dao= new DaoImplNum2();
-        BusinessImpl metier=new BusinessImpl();
-        metier.setDao(dao);
+        BusinessImpl business=new BusinessImpl();
+        business.setDao(dao);
 
         System.out.println("#######################################################################");
         System.out.println("######################### Static Presentation #########################");
         System.out.println("#######################################################################");
 
         System.out.println("The StaticPresentation class does dependencies injection in a static way.");
-        System.out.println("Result => "+metier.calcul());
+        System.out.println("Result => "+business.calculate());
     }
 }
