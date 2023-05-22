@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class DynamicPresentation {
     public static void main(String[] args) throws FileNotFoundException, ClassNotFoundException, InstantiationException, IllegalAccessException, ClassCastException, NoSuchMethodException, InvocationTargetException {
 
-        Scanner scanner =new Scanner(new File("config.txt"));
+        Scanner scanner =new Scanner(new File("IoC-part-01/config.txt"));
 
         //Dynamic instantiation
         //The new Instance method is crossed out, because it is a "deprecated" method
