@@ -1,6 +1,6 @@
 package dao;
 
-public class DaoImplNum1 implements IDao{
+public class DaoImplNumA implements IDao{
     @Override
     public double getData() {
         /*

@@ -1,7 +1,7 @@
 package pres;
 
 import business.BusinessImpl;
-import ext.DaoImplNum2;
+import ext.DaoImplNumB;
 
 public class StaticPresentation {
     /*
@@ -10,7 +10,7 @@ public class StaticPresentation {
     public static void main(String[] args) {
 
         //Static instantiation
-        DaoImplNum2 dao= new DaoImplNum2();
+        DaoImplNumB dao= new DaoImplNumB();
         BusinessImpl business=new BusinessImpl();
         business.setDao(dao);
 
