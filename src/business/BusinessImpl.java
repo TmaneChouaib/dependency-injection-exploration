@@ -2,7 +2,7 @@ package business;
 
 import dao.IDao;
 
-public class IBusinessImpl implements IBusiness {
+public class BusinessImpl implements IBusiness {
 
     private IDao dao;
 
