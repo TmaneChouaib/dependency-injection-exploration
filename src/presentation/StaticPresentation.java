@@ -10,7 +10,7 @@ public class StaticPresentation {
         BusinessImpl business = new BusinessImpl();
         business.setDao(daoImpl);
 
-        System.out.println("static presentation : ");
+        System.out.println("Static presentation : ");
         System.out.println("Result => "+business.calculate());
     }
 }
