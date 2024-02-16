@@ -1,14 +1,14 @@
 package presentation;
 
 import business.BusinessImpl;
-import dao.DaoImpl_A;
+import extention.DaoImpl_B;
 
 public class StaticPresentation {
 
     public static void main(String[] args) {
-        DaoImpl_A daoImplA = new DaoImpl_A();
+        DaoImpl_B daoImplB = new DaoImpl_B();
         BusinessImpl business = new BusinessImpl();
-        business.setDao(daoImplA);
+        business.setDao(daoImplB);
 
         System.out.println("static presentation : ");
         System.out.println("Result => "+business.calculate());
